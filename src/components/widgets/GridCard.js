@@ -6,12 +6,6 @@ import { GridCardTitle, GridCardDescription } from '.';
 import { COLORS } from '../../constants';
 
 
-// TODO Move to constants
-const IMAGE_URLS = {
-  'github': 'https://cdn.iconscout.com/icon/free/png-256/github-3215409-2673827.png'
-};
-
-
 const STYLES = {
   container: {
     display: 'flex',
@@ -27,14 +21,18 @@ const STYLES = {
     margin: '15px',
     padding: '1rem',
     backgroundColor: 'transparent',
-    border: `0.1px solid ${COLORS.PALETTE.LIGHT_GRAY}`,
-    borderRadius: '8px',
+    border: `0.1px solid ${COLORS.PALETTE.BORDER_GRAY}`,
+    borderRadius: '0px',
     cursor: 'pointer',
     userSelect: 'none',
     boxShadow: 'none',
     '&:hover': {
       backgroundColor: COLORS.PALETTE.LIGHT_GRAY,
     }
+  },
+  icon: {
+    width: '40px',
+    height: '40px'
   },
   cardHead: {
     display: 'flex',
@@ -53,7 +51,7 @@ function GridCard(props) {
     <Container theme={STYLES.container}>
       <Card theme={STYLES.card}>
         <Container theme={STYLES.cardHead}>
-          <Image margin='0px' src={IMAGE_URLS[props.data.source]} />
+          <Image margin='0px' theme={STYLES.icon} src={props.data.icon_url || '/logo192.png'} />
           <GridCardTitle>{props.data.title}</GridCardTitle>
         </Container>
         <Container theme={STYLES.cardBottom}>

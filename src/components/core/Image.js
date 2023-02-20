@@ -7,12 +7,13 @@ const StyledImage = styled.img`
   margin: ${props => props.theme.margin};
   margin-left: ${props => props.theme.marginLeft};
   margin-right: ${props => props.theme.marginRight};
+  border-radius: ${props => props.theme.borderRadius};
   cursor: pointer;
 `;
 
 const theme = {
   width: '50px',
-  hegiht: '50px'
+  height: '50px'
 };
 
 

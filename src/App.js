@@ -1,4 +1,4 @@
-import { Container, Description, GridMenu, Title } from './components';
+import { Container, Description, GridMenu, Image, Title } from './components';
 
 import { COLORS } from './constants';
 
@@ -27,6 +27,11 @@ const STYLES = {
     middle: {
       width: '60%'
     }
+  },
+  image: {
+    width: '60px',
+    height: '60px',
+    margin: '10px 0px'
   }
 };
 
@@ -35,8 +40,9 @@ function App() {
     <div className="App">
       <Container theme={STYLES.container.main}>
         <Container theme={STYLES.container.header}>
+          <Image theme={STYLES.image} src="/logo192.png" />
           <Title>Bug Bounty Tools</Title>
-          <Description>But bounty tools directory to help you better understand the tool & speed up your hunting</Description>
+          <Description>Bug bounty tools directory for you to find the right tool, understand the tool & help you speed up your hunting</Description>
         </Container>
       <GridMenu /> 
       </Container>

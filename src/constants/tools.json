@@ -3,12 +3,14 @@
     "title": "ffuf",
     "description": "Fast web fuzzer written in Go",
     "source": "github",
+    "icon_url": "https://avatars.githubusercontent.com/u/42502069?s=200&v=4",
     "tags": [ "fuzz", "fuzzer" ]
   },
   {
     "title": "Findomain",
     "description": "The fastest and cross-platform subdomain enumerator, do not waste your time.",
     "source": "github",
+    "icon_url": "https://avatars.githubusercontent.com/u/71452212?s=200&v=4",
     "tags": [ "subdomain" ]
   },
   {
