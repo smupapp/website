@@ -40,8 +40,17 @@ const STYLES = {
     textAlign: 'left',
     alignItems: 'center'
   },
-  cardBottom: {
-    padding: '5px'
+  cardBottom: {},
+  footer: {
+    container: {
+      display: 'flex',
+      justifyContent: 'end'
+    },
+    icon: {
+      width: '20px',
+      height: '20px',
+      margin: '0px 5px'
+    }
   }
 };
 
@@ -56,6 +65,12 @@ function GridCard(props) {
         </Container>
         <Container theme={STYLES.cardBottom}>
           <GridCardDescription>{props.data.description}</GridCardDescription>
+        </Container>
+        <Container theme={STYLES.footer.container}>
+          {
+            props.data.links.github &&
+              <Image src="/github.png" theme={STYLES.footer.icon} />
+          }
         </Container>
       </Card>
     </Container>

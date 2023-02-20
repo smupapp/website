@@ -4,12 +4,11 @@ import { COLORS } from '../../constants';
 
 const STYLE = {
   container: {
-    margin: '5px'
+    marginTop: '15px'
   },
   text: {
-    height: '100px',
+    height: '70px',
     fontSize: '15px',
-    overflow: 'hidden',
     color: COLORS.PALETTE.TEXT_GRAY
   }
 };

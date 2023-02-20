@@ -2,33 +2,43 @@
   {
     "title": "ffuf",
     "description": "Fast web fuzzer written in Go",
-    "source": "github",
     "icon_url": "https://avatars.githubusercontent.com/u/42502069?s=200&v=4",
-    "tags": [ "fuzz", "fuzzer" ]
+    "tags": [ "fuzz", "fuzzer" ],
+    "links": {
+      "github": "https://github.com/ffuf/ffuf"
+    }
   },
   {
     "title": "Findomain",
-    "description": "The fastest and cross-platform subdomain enumerator, do not waste your time.",
-    "source": "github",
+    "description": "The fastest and cross-platform subdomain enumerator",
     "icon_url": "https://avatars.githubusercontent.com/u/71452212?s=200&v=4",
-    "tags": [ "subdomain" ]
+    "tags": [ "subdomain" ],
+    "links": {
+      "github": "https://github.com/Findomain/Findomain"
+    }
   },
   {
     "title": "LinkFinder",
     "description": "A python script that finds endpoints in JavaScript files",
-    "source": "github",
-    "tags": [ "crawler" ]
+    "tags": [ "crawler" ],
+    "links": {
+      "github": "https://github.com/GerbenJavado/LinkFinder"
+    }
   },
   {
     "title": "ParamSpider",
     "description": "Mining parameters from dark corners of Web Archives",
-    "source": "github",
-    "tags": [ "crawler", "params", "parameters" ]
+    "tags": [ "crawler", "params", "parameters" ],
+    "links": {
+      "github": "https://github.com/devanshbatham/ParamSpider"
+    }
   },
   {
     "title": "Sublist3r",
     "description": "Fast subdomains enumeration tool for penetration testers",
-    "source": "github",
-    "tags": [ "subdomain" ]
+    "tags": [ "subdomain" ],
+    "links": {
+      "github": "https://github.com/aboul3la/Sublist3r"
+    }
   }
 ]
