@@ -7,7 +7,7 @@ const STYLE = {
     margin: '5px'
   },
   text: {
-    color: COLORS.PALETTE.TEXT_BLACK,
+    color: COLORS.PALETTE.BLACK,
     fontSize: '25px',
     fontWeight: '700'
   }

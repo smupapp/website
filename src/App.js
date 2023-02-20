@@ -13,8 +13,8 @@ const STYLES = {
       overflow: 'hidden',
       alignItems: 'center',
       flexDirection: 'column',
-      paddingTop: '0px',
-      paddingBottom: '0px',
+      paddingTop: '10px',
+      paddingBottom: '10px',
       paddingLeft: '20px',
       paddingRight: '20px',
       backgroundColor: `${COLORS.PALETTE.WHITE}`

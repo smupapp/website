@@ -1,0 +1,32 @@
+[
+  {
+    "title": "ffuf",
+    "description": "Fast web fuzzer written in Go",
+    "source": "github",
+    "tags": [ "fuzz", "fuzzer" ]
+  },
+  {
+    "title": "Findomain",
+    "description": "The fastest and cross-platform subdomain enumerator, do not waste your time.",
+    "source": "github",
+    "tags": [ "subdomain" ]
+  },
+  {
+    "title": "LinkFinder",
+    "description": "A python script that finds endpoints in JavaScript files",
+    "source": "github",
+    "tags": [ "crawler" ]
+  },
+  {
+    "title": "ParamSpider",
+    "description": "Mining parameters from dark corners of Web Archives",
+    "source": "github",
+    "tags": [ "crawler", "params", "parameters" ]
+  },
+  {
+    "title": "Sublist3r",
+    "description": "Fast subdomains enumeration tool for penetration testers",
+    "source": "github",
+    "tags": [ "subdomain" ]
+  }
+]
