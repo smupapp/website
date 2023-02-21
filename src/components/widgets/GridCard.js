@@ -1,9 +1,11 @@
-import React from 'react';
+import { useCallback } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 import { Card, Container, Image } from '../core';
 import { GridCardTitle, GridCardDescription } from '.';
+import { Utils } from '../../lib';
 
-import { COLORS } from '../../constants';
+import { COLORS, ICONS } from '../../constants';
 
 
 const STYLES = {
@@ -32,7 +34,8 @@ const STYLES = {
   },
   icon: {
     width: '40px',
-    height: '40px'
+    height: '40px',
+    marginRight: '10px'
   },
   cardHead: {
     display: 'flex',
@@ -49,27 +52,42 @@ const STYLES = {
     icon: {
       width: '20px',
       height: '20px',
-      margin: '0px 5px'
+      marginRight: '10px',
+    },
+    link: {
+      fontSize: '0px'
     }
   }
 };
 
+
+
 function GridCard(props) {
+
+  const navigate = useNavigate();
+
+  const handleClick = useCallback(() => {
+    navigate(`/tools/${props.data.id}`);
+  }, [navigate, props]);
 
   return (
     <Container theme={STYLES.container}>
       <Card theme={STYLES.card}>
-        <Container theme={STYLES.cardHead}>
-          <Image margin='0px' theme={STYLES.icon} src={props.data.icon_url || '/logo192.png'} />
-          <GridCardTitle>{props.data.title}</GridCardTitle>
-        </Container>
-        <Container theme={STYLES.cardBottom}>
-          <GridCardDescription>{props.data.description}</GridCardDescription>
+        <Container onClick={handleClick}>
+          <Container theme={STYLES.cardHead}>
+            <Image theme={STYLES.icon} src={Utils.getIcon(props.data, ICONS)} />
+            <GridCardTitle>{props.data.title}</GridCardTitle>
+          </Container>
+          <Container theme={STYLES.cardBottom}>
+            <GridCardDescription>{props.data.description}</GridCardDescription>
+          </Container>
         </Container>
         <Container theme={STYLES.footer.container}>
           {
             props.data.links.github &&
+            <Link style={STYLES.footer.link} to={props.data.links.github} target="_blank">
               <Image src="/github.png" theme={STYLES.footer.icon} />
+            </Link>
           }
         </Container>
       </Card>

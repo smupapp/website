@@ -1,5 +1,6 @@
 [
   {
+    "id": "f838e110-3db6-41b2-9a45-e66f198b9690",
     "title": "Amass",
     "description": "In-depth Attack Surface Mapping and Asset Discovery",
     "tags": [ "subdomain" ],
@@ -9,6 +10,7 @@
     }
   },
   {
+    "id": "590c2c04-dea0-4503-90d8-73c4d7e040dc",
     "title": "assetfinder",
     "description": "Find domains and subdomains potentially related to a given domain.",
     "tags": [ "subdomain" ],
@@ -18,6 +20,7 @@
     }
   },
   {
+    "id": "939c0bc9-2736-486c-8a50-b9b203c5c744",
     "title": "ffuf",
     "description": "Fast web fuzzer written in Go",
     "icon_url": "https://avatars.githubusercontent.com/u/42502069?s=200&v=4",
@@ -28,6 +31,7 @@
     }
   },
   {
+    "id": "5ab93b3e-7b26-471a-b954-c0e155d3da95",
     "title": "Findomain",
     "description": "The fastest and cross-platform subdomain enumerator",
     "icon_url": "https://avatars.githubusercontent.com/u/71452212?s=200&v=4",
@@ -38,6 +42,7 @@
     }
   },
   {
+    "id": "859f0939-520e-404a-a026-11b063eb6a20",
     "title": "LinkFinder",
     "description": "A python script that finds endpoints in JavaScript files",
     "tags": [ "crawler" ],
@@ -47,6 +52,7 @@
     }
   },
   {
+    "id": "7d7b7f28-725e-4ec3-a9cb-eea4e8956a2c",
     "title": "ParamSpider",
     "description": "Mining parameters from dark corners of Web Archives",
     "tags": [ "crawler", "params", "parameters" ],
@@ -56,6 +62,7 @@
     }
   },
   {
+    "id": "8d10f5bb-66a6-47e1-ae61-ad9ca1fedc01",
     "title": "subfinder",
     "description": "Subdomain discovery tool that uses passive online sources.",
     "tags": [ "subdomain", "passive" ],
@@ -65,6 +72,7 @@
     }
   },
   {
+    "id": "09ce0888-a22c-4578-9a09-d76da2b9e63f",
     "title": "Sublist3r",
     "description": "Fast subdomains enumeration tool for penetration testers",
     "tags": [ "subdomain" ],

@@ -1,4 +1,2 @@
 export { default as COLORS } from './colors';
-export { default as TOOLS } from './tools';
-export { default as LANGUAGE } from './language';
-export { default as STATES } from './states';
+export { default as ICONS } from './icons';

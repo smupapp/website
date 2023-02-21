@@ -31,7 +31,7 @@ function GridMenu(props) {
       {
         TOOLS.map(tool => {
           return (
-            <Container key={tool.title} theme={STYLE.item}>
+            <Container key={tool.id} theme={STYLE.item}>
               <GridCard data={{...tool}} />
             </Container>   
           )
