@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 
-import { Container, Description, Image, Title } from '../components';
+import { Container, Description, GithubIcon, Image, Title } from '../components';
 import { Utils } from '../lib';
 
 import { COLORS, ICONS } from '../constants';
@@ -34,6 +35,11 @@ const STYLES = {
     width: '60px',
     height: '60px',
     margin: '10px 0px'
+  },
+  tweetsBar: {
+    display: 'flex',
+    flexDirection: 'row',
+    maxHeight: '100px'
   }
 };
 
@@ -50,6 +56,18 @@ function Tools(props) {
         <Image theme={STYLES.image} src={Utils.getIcon(data, ICONS, '..')} />
         <Title>{data.title}</Title>
         <Description>{data.description}</Description>
+        {
+          data.links.github && 
+            <GithubIcon url={data.links.github} />
+        }   
+      </Container>
+      <Container theme={STYLES.tweetsBar}>
+        <TwitterTweetEmbed
+          tweetId={'1514259125647118342'}
+       />
+        <TwitterTweetEmbed
+          tweetId={'1228364474282733568'}
+        />
       </Container>
     </Container>
   );

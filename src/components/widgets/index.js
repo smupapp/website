@@ -1,4 +1,5 @@
 export { default as Description } from './Description';
+export { default as GithubIcon } from './GithubIcon';
 export { default as GridCard } from './GridCard';
 export { default as GridCardTitle } from './GridCardTitle';
 export { default as GridCardDescription } from './GridCardDescription';

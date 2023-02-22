@@ -1,8 +1,8 @@
 import { useCallback } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { Card, Container, Image } from '../core';
-import { GridCardTitle, GridCardDescription } from '.';
+import { GithubIcon, GridCardTitle, GridCardDescription } from '.';
 import { Utils } from '../../lib';
 
 import { COLORS, ICONS } from '../../constants';
@@ -49,14 +49,6 @@ const STYLES = {
       display: 'flex',
       justifyContent: 'end'
     },
-    icon: {
-      width: '20px',
-      height: '20px',
-      marginRight: '10px',
-    },
-    link: {
-      fontSize: '0px'
-    }
   }
 };
 
@@ -84,10 +76,8 @@ function GridCard(props) {
         </Container>
         <Container theme={STYLES.footer.container}>
           {
-            props.data.links.github &&
-            <Link style={STYLES.footer.link} to={props.data.links.github} target="_blank">
-              <Image src="/github.png" theme={STYLES.footer.icon} />
-            </Link>
+            props.data.links.github && 
+              <GithubIcon url={props.data.links.github} />
           }
         </Container>
       </Card>
