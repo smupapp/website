@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { TwitterTweetEmbed } from 'react-twitter-embed';
+//import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 import { Container, Description, GithubIcon, Image, Title } from '../components';
 import { Utils } from '../lib';
@@ -39,7 +39,7 @@ const STYLES = {
   tweetsBar: {
     display: 'flex',
     flexDirection: 'row',
-    maxHeight: '100px'
+    minHeight: '60px'
   }
 };
 
@@ -62,13 +62,20 @@ function Tools(props) {
         }   
       </Container>
       <Container theme={STYLES.tweetsBar}>
-        <TwitterTweetEmbed
-          tweetId={'1514259125647118342'}
-       />
-        <TwitterTweetEmbed
-          tweetId={'1228364474282733568'}
-        />
-      </Container>
+    {/* <TwitterTweetEmbed
+           tweetId={'1514259125647118342'}
+         />
+         <TwitterTweetEmbed
+           tweetId={'1228364474282733568'}
+         />
+         */}
+         <iframe src='https://www.youtube.com/embed/H1wdBgY1rtg'
+           frameBorder='0'
+           allow='autoplay; encrypted-media'
+           allowFullScreen={false}
+           title='video'
+         />
+       </Container>
     </Container>
   );
 }
