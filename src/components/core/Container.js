@@ -26,6 +26,7 @@ const StyledContainer = styled.div`
   min-height: ${props => props.theme.minHeight};
   min-width: ${props => props.theme.minWidth};
   overflow: ${props => props.theme.overflow};
+  overflow-x: ${props => props.theme.overflowX};
   padding: ${props => props.theme.padding};
   padding-left: ${props => props.theme.paddingLeft};
   padding-right: ${props => props.theme.paddingRight};
