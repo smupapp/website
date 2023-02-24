@@ -3,4 +3,7 @@ module.exports = {
   links: 'link.png',
   parameters: 'parameters.png',
 //  fuzzing: ''
+  
+  youtube: 'youtube.png',
+  medium: 'medium.png',
 };

@@ -4,10 +4,9 @@ import {
   Container,
   Description,
   GithubIcon,
+  GuideMenu,
   Image,
-  MediumCard,
-  Title,
-  YoutubeCard
+  Title
 } from '../components';
 import { Utils } from '../lib';
 
@@ -25,8 +24,6 @@ const STYLES = {
       flexDirection: 'column',
       paddingTop: '10px',
       paddingBottom: '10px',
-      paddingLeft: '100px',
-      paddingRight: '100px',
       backgroundColor: `${COLORS.PALETTE.WHITE}`
     },
     header: {
@@ -62,9 +59,8 @@ const STYLES = {
   section: {
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'flex-start',
     width: '100%',
-    overflowX: 'auto'
+    flexWrap: 'wrap',
   },
 };
 
@@ -86,16 +82,7 @@ function Tools(props) {
             <GithubIcon url={data.links.github} />
         }   
       </Container>
-      <Container theme={STYLES.section}>
-        <YoutubeCard url='https://www.youtube.com/embed/H1wdBgY1rtg' />
-        <YoutubeCard url='https://www.youtube.com/embed/H1wdBgY1rtg' />
-        <YoutubeCard url='https://www.youtube.com/embed/H1wdBgY1rtg' />
-        <YoutubeCard url='https://www.youtube.com/embed/H1wdBgY1rtg' />
-        <YoutubeCard url='https://www.youtube.com/embed/H1wdBgY1rtg' />
-      </Container>
-      <Container theme={STYLES.section}>
-        <MediumCard text='Hakluke’s Guide to Amass — How to Use Amass More Effectively for Bug Bounties' />
-      </Container>
+      <GuideMenu guides={data.guides} />
     </Container>
   );
 }

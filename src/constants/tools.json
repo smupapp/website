@@ -7,7 +7,44 @@
     "category": "subdomain_enumeration",
     "links": {
        "github": "https://github.com/OWASP/Amass"
-    }
+    },
+    "guides": [
+      {
+        "title": "How to Use Amass Efficiently by @jeff_foley #NahamCon2020",
+        "link": "https://www.youtube.com/watch?v=H1wdBgY1rtg",
+        "category": "youtube"
+      },
+      {
+        "title": "Hakluke’s Guide to Amass — How to Use Amass More Effectively for Bug Bounties",
+        "link": "https://hakluke.medium.com/haklukes-guide-to-amass-how-to-use-amass-more-effectively-for-bug-bounties-7c37570b83f7",
+        "category": "medium"
+      }, 
+      {
+        "title": "Tool Amass subdomain finder and takeover automate the work #bugbounty",
+        "link": "https://www.youtube.com/watch?v=Rl2cvBLJ0ME",
+        "category": "youtube"
+      },
+      {
+        "title": "How to **Actually** Use Amass More Effectively — Bug Bounty",
+        "link": "https://medium.com/@nynan/how-to-actually-use-amass-more-effectively-bug-bounty-59e83900de02",
+        "category": "medium"
+      },
+      {
+        "title": "Guide to Amass: How to Use Amass more effectively for analyst Domain.",
+        "link": "https://medium.com/@tucuong97/guide-to-amass-how-to-use-amass-more-effectively-for-analyst-domain-a6c430046946",
+        "category": "medium"
+      },
+      {
+        "title": "HackersArsenal 0x01 - AMASS - Automated SubDomain Enumeration and Reconnaissance (Full walk-though)",
+        "link": "https://www.youtube.com/watch?v=8PaVBe0cbIU",
+        "category": "youtube"
+      },
+      {
+        "title": "Jeff Foley - Advanced Recon with OWASP Amass video - DEF CON 27 Recon Village",
+        "link": "https://www.youtube.com/watch?v=ES6OKjgW36w",
+        "category": "youtube"
+      } 
+    ]
   },
   {
     "id": "590c2c04-dea0-4503-90d8-73c4d7e040dc",
@@ -64,7 +101,7 @@
   {
     "id": "8d10f5bb-66a6-47e1-ae61-ad9ca1fedc01",
     "title": "subfinder",
-    "description": "Subdomain discovery tool that uses passive online sources.",
+    "description": "Subdomain discovery tool that uses passive online categorys.",
     "tags": [ "subdomain", "passive" ],
     "category": "subdomain_enumeration",
     "links": {

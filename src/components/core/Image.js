@@ -7,6 +7,8 @@ const StyledImage = styled.img`
   margin: ${props => props.theme.margin};
   margin-left: ${props => props.theme.marginLeft};
   margin-right: ${props => props.theme.marginRight};
+  margin-top: ${props => props.theme.marginTop};
+  margin-bottom: ${props => props.theme.marginBottom};  
   border-radius: ${props => props.theme.borderRadius};
   cursor: pointer;
 `;
