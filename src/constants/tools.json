@@ -10,39 +10,46 @@
     },
     "guides": [
       {
+        "id": "8bca7f72-212e-4494-8e12-63ed0aa24fdd",
         "title": "How to Use Amass Efficiently by @jeff_foley #NahamCon2020",
         "link": "https://www.youtube.com/watch?v=H1wdBgY1rtg",
         "category": "youtube"
       },
-      {
-        "title": "Hakluke’s Guide to Amass — How to Use Amass More Effectively for Bug Bounties",
-        "link": "https://hakluke.medium.com/haklukes-guide-to-amass-how-to-use-amass-more-effectively-for-bug-bounties-7c37570b83f7",
-        "category": "medium"
-      }, 
-      {
+     {
+        "id": "6b50a32f-e94b-493b-a3aa-cb7661fc6922",
         "title": "Tool Amass subdomain finder and takeover automate the work #bugbounty",
         "link": "https://www.youtube.com/watch?v=Rl2cvBLJ0ME",
         "category": "youtube"
       },
-      {
-        "title": "How to **Actually** Use Amass More Effectively — Bug Bounty",
-        "link": "https://medium.com/@nynan/how-to-actually-use-amass-more-effectively-bug-bounty-59e83900de02",
-        "category": "medium"
-      },
-      {
-        "title": "Guide to Amass: How to Use Amass more effectively for analyst Domain.",
-        "link": "https://medium.com/@tucuong97/guide-to-amass-how-to-use-amass-more-effectively-for-analyst-domain-a6c430046946",
-        "category": "medium"
-      },
-      {
+     {
+        "id": "8a033bf1-744a-4fa8-bccf-5a44a6286d82",
         "title": "HackersArsenal 0x01 - AMASS - Automated SubDomain Enumeration and Reconnaissance (Full walk-though)",
         "link": "https://www.youtube.com/watch?v=8PaVBe0cbIU",
         "category": "youtube"
       },
       {
+        "id": "ceef65c4-816e-4d44-b750-8f5466c727d1",
         "title": "Jeff Foley - Advanced Recon with OWASP Amass video - DEF CON 27 Recon Village",
         "link": "https://www.youtube.com/watch?v=ES6OKjgW36w",
         "category": "youtube"
+      },
+      {
+        "id": "c924ddf1-df2d-413f-bcdb-64a0fac712f4",
+        "title": "How to **Actually** Use Amass More Effectively — Bug Bounty",
+        "link": "https://medium.com/@nynan/how-to-actually-use-amass-more-effectively-bug-bounty-59e83900de02",
+        "category": "medium"
+      },
+      {
+        "id": "57f67d47-d1ac-4d70-8e24-045b1425f138",
+        "title": "Guide to Amass: How to Use Amass more effectively for analyst Domain.",
+        "link": "https://medium.com/@tucuong97/guide-to-amass-how-to-use-amass-more-effectively-for-analyst-domain-a6c430046946",
+        "category": "medium"
+      }, 
+      {
+        "id": "6227b82e-94ce-429a-9c1b-b4519f139a2c",
+        "title": "Hakluke’s Guide to Amass — How to Use Amass More Effectively for Bug Bounties",
+        "link": "https://hakluke.medium.com/haklukes-guide-to-amass-how-to-use-amass-more-effectively-for-bug-bounties-7c37570b83f7",
+        "category": "medium"
       } 
     ]
   },
@@ -54,7 +61,51 @@
     "category": "subdomain_enumeration",
     "links": {
       "github": "https://github.com/tomnomnom/assetfinder"
-    }
+    },
+    "guides": [
+      {
+        "id": "ce448516-5134-44b8-b816-74ee7f503339",
+        "title": "Assetfinder - Subdomain Enumeration Tool",
+        "link": "https://www.youtube.com/watch?v=EhmQZ-Q0BHg",
+        "category": "youtube"
+      },
+      {
+        "id": "e49c18cb-b8b5-46c6-9b43-647af1703a3b",
+        "title": "Assetfinder - Subdomain Enumeration Tool | #indoneisia #bugbounty",
+        "link": "https://www.youtube.com/watch?v=FpkhI3UwsA0",
+        "category": "youtube"
+      },
+      {
+        "id": "b12cc0df-c5c2-43cf-b333-f081d765090a",
+        "title": "Install assetfinder",
+        "link": "https://www.youtube.com/watch?v=YJ-nv758OSQ",
+        "category": "youtube"
+      },
+      {
+        "id": "ae73be2c-67b7-4959-8efe-a75dd1a5d3e9",
+        "title": "Tool Amass subdomain finder and takeover automate the work #bugbounty",
+        "link": "https://www.youtube.com/watch?v=Rl2cvBLJ0ME",
+        "category": "youtube"
+      },
+      {
+        "id": "66954186-69a6-4ea9-ad76-9dcfee6115a3",
+        "title": "Install assetfinder on Kali Linux",
+        "link": "https://medium.com/@sherlock297/install-assetfinder-on-kali-linux-c0cf798345ba",
+        "category": "medium"
+      },
+      {
+        "id": "4ecaedf9-9c4a-450e-948b-6ea46f41339a",
+        "title": "Information Gathering&scanning for sensitive information[ Reloaded ]",
+        "link": "https://0xjoyghosh.medium.com/information-gathering-scanning-for-sensitive-information-reloaded-6ff3455e0d4e",
+        "category": "medium"
+      },
+      {
+        "id": "7eda3d65-6611-48eb-bb5c-ad3374cc778a",
+        "title": "Recon as a beginner!",
+        "link": "https://0xhavoc.medium.com/recon-as-a-beginner-2f3c5a39408f",
+        "category": "medium"
+      }
+    ]
   },
   {
     "id": "939c0bc9-2736-486c-8a50-b9b203c5c744",
@@ -65,7 +116,69 @@
     "category": "fuzzing",
     "links": {
       "github": "https://github.com/ffuf/ffuf"
-    }
+    },
+    "guides": [
+      {
+        "id": "a48cd23b-14e1-4240-bf38-289a71b392ab",
+        "title": "Fuzzing & Directory Brute-Force With ffuf",
+        "link": "https://www.youtube.com/watch?v=9Hik0xy9qd0",
+        "category": "youtube"
+      },
+      {
+        "id": "c6441ab8-e210-41d3-ab96-e36a768e3b3b",
+        "title": "How to use ffuf - Hacker Toolbox",
+        "link": "https://www.youtube.com/watch?v=aN3Nayvd7FU",
+        "category": "youtube"
+      },
+      {
+        "id": "b575d973-1ad5-4fb8-aa31-aa2e22bc517e",
+        "title": "Fuzzing for beginners! FFuF - Hacker Tools",
+        "link": "https://www.youtube.com/watch?v=UDaeS7455mU",
+        "category": "youtube"
+      },
+      {
+        "id": "a5d0f396-a81f-49c4-b45d-4d0a242355d6",
+        "title": "How to Master FFUF for Bug Bounties and Pen Testing",
+        "link": "https://www.youtube.com/watch?v=iLFkxAmwXF0",
+        "category": "youtube"
+      },
+      {
+        "id": "de614c14-d0ba-4af1-a82a-a89ecba7939a",
+        "title": "Subdomain Enumeration Techniques for Bug Bounties with FFUF",
+        "link": "https://www.youtube.com/watch?v=d8zwXxixz5Y",
+        "category": "youtube"
+      },
+      {
+        "id": "975600d1-2f0b-4938-a026-dd4fd1cb6ef4",
+        "title": "Fuzz Faster with FFUF",
+        "link": "https://medium.com/quiknapp/fuzz-faster-with-ffuf-c18c031fc480",
+        "category": "medium"
+      },
+      {
+        "id": "bb2a317c-1836-4a4b-a1d0-4bc45fd96fba",
+        "title": "Holy FFUF! — A Beginner Guide to Fuzz with FFUF",
+        "link": "https://mikekitckchan.medium.com/holy-ffuf-a-beginner-guide-to-fuzz-with-ffuf-4bc6a66b5391",
+        "category": "medium"
+      },
+      {
+        "id": "2380632a-c97c-4495-a311-5e168948107a",
+        "title": "How I Found multiple SQL Injection with FFUF and Sqlmap in a few minutes",
+        "link": "https://0xmahmoudjo0.medium.com/how-i-found-multiple-sql-injection-with-ffuf-and-sqlmap-in-a-few-minutes-9c3bb3780e8f",
+        "category": "medium"
+      },
+      {
+        "id": "7198e621-d1b5-449f-a1e3-fbe04bad2b6e",
+        "title": "FFUF Tips And Tricks",
+        "link": "https://tamimhasan404.medium.com/ffuf-tips-and-tricks-90fbe12e7c79",
+        "category": "medium"
+      },
+      {
+        "id": "2e85f434-633b-4806-9589-de59670ef162",
+        "title": "FFUF: The Fast and Flexible Web Fuzzer for Penetration Testing [Cheat Sheet]",
+        "link": "https://medium.com/@cuncis/ffuf-the-fast-and-flexible-web-fuzzer-for-penetration-testing-cheat-sheet-10fc5688974f",
+        "category": "medium"
+      }
+    ]
   },
   {
     "id": "5ab93b3e-7b26-471a-b954-c0e155d3da95",
@@ -76,7 +189,45 @@
     "category": "subdomain_enumeration",
     "links": {
       "github": "https://github.com/Findomain/Findomain"
-    }
+    },
+    "guides": [
+      {
+        "id": "19f03b11-cb8a-44e2-899a-15bb92b28536",
+        "title": "How to install Findomain tool in Kali Linux | Bug Bounty",
+        "link": "https://www.youtube.com/watch?v=faSrMBOPA6w",
+        "category": "youtube"
+      },
+      {
+        "id": "29c43103-f6c1-49d1-ace3-87e00b742d51",
+        "title": "Collecting Subdomains - Part 1 | Amass | Subfinder | Assetfinder | Findomain",
+        "link": "https://www.youtube.com/watch?v=khEQeKYMwCU",
+        "category": "youtube"
+      },
+      {
+        "id": "97b7a6f1-0ea8-4ea7-a579-0bd944a7722f",
+        "title": "Subdomain Enumeration for Beginners - Active & Passive Enumeration",
+        "link": "https://www.youtube.com/watch?v=Wdzv5csmNjk",
+        "category": "youtube"
+      },
+      {
+        "id": "e7a016d0-37f4-4be2-be09-98d5e5c60aed",
+        "title": "Subdomains Enumeration: what is, how to do it, monitoring automation using webhooks, and centralizing your findings",
+        "link": "https://blog.findomain.app/subdomains-enumeration-what-is-how-to-do-it-monitoring-automation-using-webhooks-and-5e0a0c6d9127",
+        "category": "medium"
+      },
+      {
+        "id": "ad279a12-253e-4af6-8eb0-6a131ae02cd4",
+        "title": "Subdomains Enumeration: Find list Subdomain with Findomain Service",
+        "link": "https://medium.com/@tucuong97/subdomains-enumeration-find-list-subdomain-with-findomain-service-60794b7855d2",
+        "category": "medium"
+      },
+      {
+        "id": "7d981890-e6a5-45fa-8d3a-5e12f322b26e",
+        "title": "Subdomain Enumeration Tools Evaluation",
+        "link": "https://ricardoiramar.medium.com/subdomain-enumeration-tools-evaluation-57d4ec02d69e",
+        "category": "medium"
+      }
+    ]
   },
   {
     "id": "859f0939-520e-404a-a026-11b063eb6a20",
@@ -86,7 +237,39 @@
     "category": "links",
     "links": {
       "github": "https://github.com/GerbenJavado/LinkFinder"
-    }
+    },
+    "guides": [
+      {
+        "id": "e02daab7-2266-48bf-8df2-83c836c444a6",
+        "title": "Install LinkFinder on Kali Linux",
+        "link": "https://www.youtube.com/watch?v=F6EZf4QvoqQ",
+        "category": "youtube"
+      },
+      {
+        "id": "68ad32b5-7b8e-4450-ae5c-af9171dc83a5",
+        "title": "Termux - LinkFinder (find the link on the website)",
+        "link": "https://www.youtube.com/watch?v=_utfDKP8PWE",
+        "category": "youtube"
+      },
+      {
+        "id": "de6c580b-5e69-4b67-8f79-c98e220bbb5b",
+        "title": "Beginners Guide On How You Can Use Javascript In BugBounty.",
+        "link": "https://kathanp19.medium.com/beginners-guide-on-how-you-can-use-javascript-in-bugbounty-492f6eb1f9ea",
+        "category": "medium"
+      },
+      {
+        "id": "47d7f0dd-a6d3-490e-a825-fd019a0c1eea",
+        "title": "How to look for JS files Vulnerability for fun and profit?",
+        "link": "https://medium.com/@Skylinearafat/how-to-look-for-js-files-vulnerability-for-fun-and-profit-78bfdfbd6731",
+        "category": "medium"
+      },
+      {
+        "id": "69c8b25a-87e9-443c-aae7-20d0b85ef938",
+        "title": "JS is l0ve ❤️",
+        "link": "https://sechunter.medium.com/js-is-love-%EF%B8%8F-ca393a4849e9",
+        "category": "medium"
+      }
+    ]
   },
   {
     "id": "7d7b7f28-725e-4ec3-a9cb-eea4e8956a2c",
@@ -96,7 +279,57 @@
     "category": "parameters",
     "links": {
       "github": "https://github.com/devanshbatham/ParamSpider"
-    }
+    },
+    "guides": [
+      {
+        "id": "d9ba0d70-dfe4-413d-9356-df592c779e82",
+        "title": "XSS Reflected Bug | using ParamSpider |Gxss|Dalfox with Poc Using Kali Linux Virtual Machine",
+        "link": "https://www.youtube.com/watch?v=yZ--D8oKGLw",
+        "category": "youtube"
+      },
+      {
+        "id": "1b1754d6-4788-411b-b46f-9ed33b9d104f",
+        "title": "Awesome Bugbounty Tool - Param spider & Arjul - CyberTEACH",
+        "link": "https://www.youtube.com/watch?v=sy2WKcE_N7E",
+        "category": "youtube"
+      },
+      {
+        "id": "e28e3fa8-a29b-4e65-b7ef-e2ac2bb37cd3",
+        "title": "Install ParamSpider on Kali Linux",
+        "link": "https://www.youtube.com/watch?v=667I3ZJ9Slc",
+        "category": "youtube"
+      },
+      {
+        "id": "6c03eeeb-fae1-4015-8dce-5b98a5c2ff01",
+        "title": "ParamSpider | Parameter Discovery Suite | Briskinfosec",
+        "link": "https://www.youtube.com/watch?v=lLsMuwOAj4A",
+        "category": "youtube"
+      },
+      {
+        "id": "3a9f3ade-d5e1-43f0-a2cc-8cc65eb9c96c",
+        "title": "Install and Use ParamSpider (a parameter miner)",
+        "link": "https://n00bie.medium.com/install-and-use-paramspider-a-parameter-miner-5775f5989dbe",
+        "category": "medium"
+      },
+      {
+        "id": "fbf8f95d-baad-42d2-b891-9855f04b02c1",
+        "title": "Install ParamSpider on Kali Linux",
+        "link": "https://medium.com/@sherlock297/install-paramspider-on-kali-linux-1c6b76568c3f",
+        "category": "medium"
+      },
+      {
+        "id": "c9e8d8e2-4301-45c6-a546-03271e408f5a",
+        "title": "Information Gathering&scanning for sensitive information[ Reloaded ]",
+        "link": "https://0xjoyghosh.medium.com/information-gathering-scanning-for-sensitive-information-reloaded-6ff3455e0d4e",
+        "category": "medium"
+      },
+      {
+        "id": "fea6cf9e-d692-4578-8da5-35bc30607abf",
+        "title": "Automating xss identification with Dalfox & Paramspider",
+        "link": "https://infosecwriteups.com/automating-xss-identification-with-dalfox-paramspider-e14283bb7916",
+        "category": "medium"
+      }
+    ]
   },
   {
     "id": "8d10f5bb-66a6-47e1-ae61-ad9ca1fedc01",
@@ -106,7 +339,63 @@
     "category": "subdomain_enumeration",
     "links": {
       "github": "https://github.com/projectdiscovery/subfinder"
-    }
+    },
+    "guides": [
+      {
+        "id": "630c0ee3-b7a8-4e63-890b-1ab882b98be0",
+        "title": "How to Install and Use Subfinder: The Ultimate Subdomain Enumeration Tool",
+        "link": "https://www.youtube.com/watch?v=gDajIimWM2Y",
+        "category": "youtube"
+      },
+      {
+        "id": "5bc14a9a-4b01-41ce-b4c4-c1015e4bec28",
+        "title": "Subfinder – A Subdomain Discovery Tool - Do I like it?",
+        "link": "https://www.youtube.com/watch?v=nx0clApVZpE",
+        "category": "youtube"
+      },
+      {
+        "id": "a99db080-f832-43ce-be4e-372ca82e0f9d",
+        "title": "Subdomain Enumeration for Beginners - Active & Passive Enumeration",
+        "link": "https://www.youtube.com/watch?v=Wdzv5csmNjk",
+        "category": "youtube"
+      },
+      {
+        "id": "54472d47-5769-42aa-8d37-ea723eea00c9",
+        "title": "Collecting Subdomains - Part 1 | Amass | Subfinder | Assetfinder | Findomain",
+        "link": "https://www.youtube.com/watch?v=khEQeKYMwCU",
+        "category": "youtube"
+      },
+      {
+        "id": "baf3256f-0334-4b8f-bddc-caca52008287",
+        "title": "Subfinder | Subdomain Discovery Tool | Subdomain Enumeration | Latest Version : v2 | Kali Linux",
+        "link": "https://www.youtube.com/watch?v=mTfWEzjTlsA",
+        "category": "youtube"
+      },
+      {
+        "id": "c42f6c34-db71-40d0-b596-4e1dd9228406",
+        "title": "Subdomain Discovery with Subfinder | Bug Bounty Tools #1",
+        "link": "https://www.youtube.com/watch?v=BlvqhSCfKZs",
+        "category": "youtube"
+      },
+      {
+        "id": "a0a31068-7104-442a-ae38-7296f080165d",
+        "title": "Subfinder - Passive subdomain enumeration tutorial. #subfinder #bugbountytips #pentest #enumeration",
+        "link": "https://www.youtube.com/watch?v=CAirq2jU54s",
+        "category": "youtube"
+      },
+      {
+        "id": "a5456a96-3d5b-4f7f-a849-55a1db5e380e",
+        "title": "How to run subfinder with Axiom",
+        "link": "https://medium.com/bug-bounty/how-to-run-subfinder-with-axiom-dc2fec98920c",
+        "category": "medium"
+      },
+      {
+        "id": "50b86c79-8151-4c2e-9933-56953a8f05c0",
+        "title": "Recon as a beginner!",
+        "link": "https://0xhavoc.medium.com/recon-as-a-beginner-2f3c5a39408f",
+        "category": "medium"
+      }
+    ]
   },
   {
     "id": "09ce0888-a22c-4578-9a09-d76da2b9e63f",
@@ -116,6 +405,62 @@
     "category": "subdomain_enumeration",
     "links": {
       "github": "https://github.com/aboul3la/Sublist3r"
-    }
+    },
+    "guides": [
+      {
+        "id": "a9ba9be9-0911-4d61-8c2f-8c818c31392b",
+        "title": "Passive Recon - Subdomain Enumeration With Sublist3r",
+        "link": "https://www.youtube.com/watch?v=DI8-tNq7hFc",
+        "category": "youtube"
+      },
+      {
+        "id": "1a68651d-781b-42ee-8e34-9b01bcf154a4",
+        "title": "Domain Enumeration with Sublist3r : OSINT tool",
+        "link": "https://www.youtube.com/watch?v=Xx7Ip_LsT50",
+        "category": "youtube"
+      },
+      {
+        "id": "f89e666b-ed18-4a05-beee-7bb1640875a4",
+        "title": "TryHackMe Official Sublist3r Walkthrough",
+        "link": "https://www.youtube.com/watch?v=yXppnZZxkPg",
+        "category": "youtube"
+      },
+      {
+        "id": "28c1dcb4-ebbd-4766-8900-eb0f022bb4b7",
+        "title": "Sublist3r | Enumerate subdomains of websites using OSINT | Info Gathering tool",
+        "link": "https://www.youtube.com/watch?v=N3MZUq0BQfc",
+        "category": "youtube"
+      },
+      {
+        "id": "88fd3fa2-3167-48e7-b799-54cad389eea2",
+        "title": "Sublist3r",
+        "link": "https://shadowmaster98.medium.com/sublist3r-8c149f7f1cd9",
+        "category": "medium"
+      },
+      {
+        "id": "bfaa40c9-eb87-4558-a955-30933d851a58",
+        "title": "Sublist3r writeup",
+        "link": "https://medium.com/@jeganathan653/sublist3r-writeup-dd326fc9bfd4",
+        "category": "medium"
+      },
+      {
+        "id": "23d13140-740b-422a-b72b-228d2b1b8009",
+        "title": "How To Install Sublist3r In Your Windows Machine",
+        "link": "https://nikhil-gandla777.medium.com/how-to-install-sublist3r-in-your-windows-machine-a443feb6bf59",
+        "category": "medium"
+      },
+      {
+        "id": "f8079a8f-c3a3-4759-9b74-2d229e3db306",
+        "title": "Sublist3r — Osint Tool",
+        "link": "https://zahideroglu.medium.com/sublist3r-osint-tool-59eab77b1a95",
+        "category": "medium"
+      },
+      {
+        "id": "39a5c30b-79fe-4a22-a104-6772e33be6e6",
+        "title": "Install sublist3r on Ubuntu 20.04",
+        "link": "https://utshaw.medium.com/install-sublist3r-on-ubuntu-20-04-620abf4e59fb",
+        "category": "medium"
+      }
+    ]
   }
 ]
