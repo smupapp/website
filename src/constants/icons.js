@@ -2,7 +2,7 @@ module.exports = {
   subdomain_enumeration: 'www.png',
   links: 'link.png',
   parameters: 'parameters.png',
-//  fuzzing: ''
+  screenshot: 'screenshot.png',
   
   youtube: 'youtube.png',
   medium: 'medium.png',

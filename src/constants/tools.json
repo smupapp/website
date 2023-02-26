@@ -498,5 +498,101 @@
         "category": "medium"
       }
     ]
+  },
+  {
+    "id": "43395587-5d76-4057-86be-105baa3debf7",
+    "title": "gowitness",
+    "description": "A golang, web screenshot utility using Chrome Headless.",
+    "tags": [ "screenshot" ],
+    "category": "screenshot",
+    "links": {
+      "github": "https://github.com/sensepost/gowitness"
+    },
+    "guides": [
+      {
+        "id": "10ab926e-68b6-4dea-8a6f-c6596ab69d3b",
+        "title": "157 Screenshotting Websites with GoWitness",
+        "link": "https://www.youtube.com/watch?v=vo-lrtPrlrA",
+        "category": "youtube"
+      },
+      {
+        "id": "1ae27cd7-2ca4-4560-beb2-c96371673e13",
+        "title": "Installing Gowitness on Kali Linux",
+        "link": "https://www.youtube.com/watch?v=AgitklAR9L8",
+        "category": "youtube"
+      },
+      {
+        "id": "d46f3a6b-f8f8-44fb-a76c-8a0fc671a2a3",
+        "title": "The Time Eater",
+        "link": "https://scr1ptkiddie.medium.com/the-time-eater-151ff7e77c21",
+        "category": "medium"
+      },
+      {
+        "id": "771790c3-fc96-4c78-98cd-e09dd599b167",
+        "title": "Red/Blue Team: Subdomains [Part 2] — Hunt in Ocean!",
+        "link": "https://cybermeisam.medium.com/red-blue-team-subdomains-part-2-hunt-in-ocean-972b6ea579ca",
+        "category": "medium"
+      },
+      {
+        "id": "6963a3c7-0abe-47d6-b5d1-bd063d7d93b7",
+        "title": "My Essential Recon Commands",
+        "link": "https://medium.com/@xsanjay/my-essential-recon-commands-93d37f4e1b91",
+        "category": "medium"
+      },
+      {
+        "id": "c38b0917-b4f1-4a67-9e2b-0a25fc56a8ef",
+        "title": "gowitness - another mass screenshott'ing tool...",
+        "link": "https://twitter.com/sensepost/status/938402258215145472?s=20",
+        "category": "twitter"
+      },
+      {
+        "id": "1f0cad71-df0a-42ff-b820-a08ba6bb730d",
+        "title": "Gowitness - A Golang, Web Screenshot Utility Using Chrome Headless",
+        "link": "https://twitter.com/Chahali/status/1218143689509392387?s=20",
+        "category": "twitter"
+      }
+    ]
+  },
+  {
+    "id": "bc2ab004-724a-4d2c-8ba3-3e3d77392676",
+    "title": "EyeWitness",
+    "description": "EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known.",
+    "tags": [ "screenshot" ],
+    "category": "screenshot",
+    "links": {
+      "github": "https://github.com/FortyNorthSecurity/EyeWitness"
+    },
+    "guides": [
+      {
+        "id": "e41f2d69-65e5-4298-92c5-947b157744dc",
+        "title": "Hacking through screenshots! EyeWitness- Hacker Tools",
+        "link": "https://www.youtube.com/watch?v=BF8Xd0rRw6s",
+        "category": "youtube"
+      },
+      {
+        "id": "6cf44701-a771-4550-8450-13db093809b4",
+        "title": "How to use Eyewitness tool Bug Bounty (Educational Video)",
+        "link": "https://www.youtube.com/watch?v=UWJ6mkIZDZg",
+        "category": "youtube"
+      },
+      {
+        "id": "451a302b-3fbe-442b-bafc-39cb5903ab5f",
+        "title": "Kali Tools - Eyewitness - Capture Web Screenshots",
+        "link": "https://www.youtube.com/watch?v=x6gRIKlmPto",
+        "category": "youtube"
+      },
+      {
+        "id": "772e6938-04ff-4e49-8838-7142dc361e31",
+        "title": "Information Gathering&scanning for sensitive information[ Reloaded ]",
+        "link": "https://0xjoyghosh.medium.com/information-gathering-scanning-for-sensitive-information-reloaded-6ff3455e0d4e",
+        "category": "medium"
+      },
+      {
+        "id": "f7d04309-a6a7-4dad-88e8-5640601e455c",
+        "title": "Recon as a beginner!",
+        "link": "https://0xhavoc.medium.com/recon-as-a-beginner-2f3c5a39408f",
+        "category": "medium"
+      }
+    ]
   }
 ]
