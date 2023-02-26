@@ -50,7 +50,13 @@
         "title": "Hakluke’s Guide to Amass — How to Use Amass More Effectively for Bug Bounties",
         "link": "https://hakluke.medium.com/haklukes-guide-to-amass-how-to-use-amass-more-effectively-for-bug-bounties-7c37570b83f7",
         "category": "medium"
-      } 
+      },
+      {
+        "id": "7aa51821-8032-4041-8dc5-d674e40ae085",
+        "title": "Checkout this AMASS Cheat-sheet: \nAmass is a tool that...",
+        "link": "https://twitter.com/IamLucif3r_/status/1550069670635802625?s=20",
+        "category": "twitter"
+      }
     ]
   },
   {
@@ -177,6 +183,36 @@
         "title": "FFUF: The Fast and Flexible Web Fuzzer for Penetration Testing [Cheat Sheet]",
         "link": "https://medium.com/@cuncis/ffuf-the-fast-and-flexible-web-fuzzer-for-penetration-testing-cheat-sheet-10fc5688974f",
         "category": "medium"
+      },
+      {
+        "id": "bca45b89-b1ac-4176-a056-ced9965d0119",
+        "title": "#ffuf oneliner",
+        "link": "https://twitter.com/sprocket_ed/status/1265984989058920448?s=20",
+        "category": "twitter"
+      },
+      {
+        "id": "e7520e64-ba51-4ac5-a336-a9a70cdb70a0",
+        "title": "Subdomain bruteforce with ffuf on 443 port.",
+        "link": "https://twitter.com/GochaOqradze/status/1224345381519024128?s=20",
+        "category": "twitter"
+      },
+      {
+        "id": "e44cb112-3d34-4381-8ac4-1d8c742e2f83",
+        "title": "How to use FFUF over multiple hosts",
+        "link": "https://twitter.com/h4x0r_dz/status/1590307899955609600",
+        "category": "twitter"
+      },
+      {
+        "id": "df3bf328-2928-4ffe-9f5a-d947527d2895",
+        "title": "How to enumerate numeric id with #ffuf without using a pre-generated wordlist.",
+        "link": "https://twitter.com/noraj_rawsec/status/1393185668583632897",
+        "category": "twitter"
+      },
+      {
+        "id": "b2acc5aa-5ef0-4aa9-bcef-6ccd1c4f4020",
+        "title": "If you use multiple wordlists like SecLists, fzf is also very useful! \nIt's simple fuzzing tip using #fzf, #ffuf, and #SecLists 😎",
+        "link": "https://twitter.com/hahwul/status/1248275759136817152",
+        "category": "twitter"
       }
     ]
   },

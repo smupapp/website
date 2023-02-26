@@ -6,4 +6,5 @@ module.exports = {
   
   youtube: 'youtube.png',
   medium: 'medium.png',
+  twitter: 'twitter.png',
 };
