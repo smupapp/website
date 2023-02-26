@@ -1,0 +1,16 @@
+[
+  {
+    "id": "4ffb0ccb-7b01-4a21-9f41-0b6588e7b332",
+    "title": "Jotform Bug Bounty Program",
+    "description": "Go from busywork to less work with powerful forms.",
+    "logo_url": "https://www.jotform.com/resources/assets/icon/min/jotform-icon-transparent-400x400.png",
+    "links": {
+      "web": "https://www.jotform.com/",
+      "program": "https://www.jotform.com/bug-bounty/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": true
+    }
+  }
+]

@@ -1,17 +1,6 @@
-import { useParams } from 'react-router-dom';
+import { Container, Description, GridMenu, Image, Title } from '../components';
 
-import {
-  Container,
-  Description,
-  GithubIcon,
-  GuideMenu,
-  Image,
-  Title
-} from '../components';
-import { Utils } from '../lib';
-
-import { COLORS, ICONS } from '../constants';
-import TOOLS from '../constants/tools.json';
+import { COLORS } from '../constants';
 
 
 const STYLES = {
@@ -24,6 +13,8 @@ const STYLES = {
       flexDirection: 'column',
       paddingTop: '10px',
       paddingBottom: '10px',
+      paddingLeft: '20px',
+      paddingRight: '20px',
       backgroundColor: `${COLORS.PALETTE.WHITE}`
     },
     header: {
@@ -35,54 +26,23 @@ const STYLES = {
       width: '60%'
     }
   },
-  card: {
-    textAlign: 'left',
-    width: '300px',
-    height: '150px',
-    margin: '15px',
-    padding: '0.1px',
-    backgroundColor: 'transparent',
-    border: `0.1px solid ${COLORS.PALETTE.BORDER_GRAY}`,
-    borderRadius: '0px',
-    cursor: 'pointer',
-    userSelect: 'none',
-    boxShadow: 'none',
-    '&:hover': {
-      backgroundColor: COLORS.PALETTE.LIGHT_GRAY,
-    }
-  },
   image: {
     width: '60px',
     height: '60px',
     margin: '10px 0px'
-  },
-  section: {
-    display: 'flex',
-    flexDirection: 'row',
-    width: '100%',
-    flexWrap: 'wrap',
-  },
+  }
 };
 
-
-
 function Tools(props) {
-
-  const { id } = useParams();
-  const data = TOOLS.find(tool => tool.id === id)
 
   return (
     <Container theme={STYLES.container.main}>
       <Container theme={STYLES.container.header}>
-        <Image theme={STYLES.image} src={Utils.getIcon(data, ICONS, '..')} />
-        <Title>{data.title}</Title>
-        <Description>{data.description}</Description>
-        {
-          data.links.github && 
-            <GithubIcon url={data.links.github} />
-        }   
+        <Image theme={STYLES.image} src="/logo192.png" />
+        <Title>Bug Bounty <u>Tools</u></Title>
+        <Description>Bug bounty tools directory for you to find the right tool, understand the tool & help you speed up your hunting</Description>
       </Container>
-      <GuideMenu guides={data.guides} />
+      <GridMenu /> 
     </Container>
   );
 }

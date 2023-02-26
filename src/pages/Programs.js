@@ -1,4 +1,4 @@
-import { Container, Description, GridMenu, Image, Title } from '../components';
+import { Container, Description, ProgramMenu, Image, Title } from '../components';
 
 import { COLORS } from '../constants';
 
@@ -33,18 +33,18 @@ const STYLES = {
   }
 };
 
-function Home(props) {
+function Programs(props) {
 
   return (
     <Container theme={STYLES.container.main}>
       <Container theme={STYLES.container.header}>
         <Image theme={STYLES.image} src="/logo192.png" />
-        <Title>Bug Bounty Tools</Title>
-        <Description>Bug bounty tools directory for you to find the right tool, understand the tool & help you speed up your hunting</Description>
+        <Title>Bug Bounty <u>Programs</u></Title>
+        <Description>Bug bounty programs directory for you, which saves you time in digging for these programs using dorking</Description>
       </Container>
-      <GridMenu /> 
+      <ProgramMenu /> 
     </Container>
   );
 }
 
-export default Home;
+export default Programs;
