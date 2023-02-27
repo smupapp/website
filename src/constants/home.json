@@ -1,0 +1,14 @@
+[
+  {
+    "id": "6c57b853-5539-44ab-8c1e-d1c1757e4a01",
+    "title": "Programs",
+    "description": "Self Managed Bug Bounty Programs",
+    "path": "/programs"
+  },
+  {
+    "id": "32637386-6dbb-42df-bbf2-b83833af544e",
+    "title": "Tools",
+    "description": "Bug Bounty Tools & Guides",
+    "path": "/tools"
+  }
+]

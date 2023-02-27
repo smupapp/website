@@ -8,6 +8,8 @@ export { default as GridMenu } from './GridMenu';
 export { default as GuideCard } from './GuideCard';
 export { default as GuideMenu } from './GuideMenu';
 export { default as HOFIcon } from './HOFIcon';
+export { default as HomeCard } from './HomeCard';
+export { default as HomeMenu } from './HomeMenu';
 export { default as ProgramCard } from './ProgramCard';
 export { default as ProgramMenu } from './ProgramMenu';
 export { default as SectionTitle } from './SectionTitle';
