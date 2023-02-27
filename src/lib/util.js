@@ -4,8 +4,8 @@ const Utils = {};
 Utils.getIcon = (data, icons, prefix) => {
   prefix = prefix || '';
 
-  if (data.icon_url) {
-    return data.icon_url;
+  if (data.logo_url) {
+    return data.logo_url;
   }
 
   if (icons[data.category]) {

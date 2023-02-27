@@ -1,4 +1,4 @@
-import { Container, Description, GridMenu, Image, Title } from '../components';
+import { Container, Description, HomeMenu, Image, Title } from '../components';
 
 import { COLORS } from '../constants';
 
@@ -39,10 +39,10 @@ function Home(props) {
     <Container theme={STYLES.container.main}>
       <Container theme={STYLES.container.header}>
         <Image theme={STYLES.image} src="/logo192.png" />
-        <Title>Bug Bounty Tools</Title>
-        <Description>Bug bounty tools directory for you to find the right tool, understand the tool & help you speed up your hunting</Description>
+        <Title>Bug Bounty <u>Home</u></Title>
+        <Description>Bug bounty home for self managed programs, tools, guides & much more</Description>
       </Container>
-      <GridMenu /> 
+      <HomeMenu /> 
     </Container>
   );
 }

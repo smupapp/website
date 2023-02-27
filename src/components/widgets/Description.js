@@ -5,7 +5,6 @@ import { COLORS } from '../../constants';
 
 const STYLE = {
   container: {
-    width: '500px',
     margin: '20px auto'
   },
   text: {
