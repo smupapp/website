@@ -1,3 +1,4 @@
+export { default as BountyIcon } from './BountyIcon';
 export { default as Description } from './Description';
 export { default as GithubIcon } from './GithubIcon';
 export { default as GridCard } from './GridCard';
@@ -6,9 +7,10 @@ export { default as GridCardDescription } from './GridCardDescription';
 export { default as GridMenu } from './GridMenu';
 export { default as GuideCard } from './GuideCard';
 export { default as GuideMenu } from './GuideMenu';
+export { default as HOFIcon } from './HOFIcon';
 export { default as ProgramCard } from './ProgramCard';
-export { default as ProgramIcon } from './ProgramIcon';
 export { default as ProgramMenu } from './ProgramMenu';
 export { default as SectionTitle } from './SectionTitle';
+export { default as SwagIcon } from './SwagIcon';
 export { default as Title } from './Title';
 export { default as WebIcon } from './WebIcon';

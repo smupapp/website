@@ -25,5 +25,8 @@ npm start
 - <a href="https://www.flaticon.com/free-icons/medium" title="medium icons">Medium icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/screenshot" title="screenshot icons">Screenshot icons created by Freepik - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/website" title="website icons">Website icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/bug" title="bug icons">Bug icons created by twentyfour - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/globe" title="globe icons">Globe icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/t-shirt" title="t shirt icons">T shirt icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/money" title="money icons">Money icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/hall-of-fame" title="hall of fame icons">Hall of fame icons created by juicy_fish - Flaticon</a>

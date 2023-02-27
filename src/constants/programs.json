@@ -10,7 +10,8 @@
     },
     "options": {
       "bounty": true,
-      "swag": true
+      "swag": true,
+      "hof": true
     }
   }
 ]

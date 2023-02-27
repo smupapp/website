@@ -1,5 +1,5 @@
 import { Card, Container, Image } from '../core';
-import { GridCardTitle, GridCardDescription, ProgramIcon, WebIcon } from '.';
+import { BountyIcon, GridCardTitle, GridCardDescription, HOFIcon, SwagIcon, WebIcon } from '.';
 import { Utils } from '../../lib';
 
 import { COLORS, ICONS } from '../../constants';
@@ -44,8 +44,11 @@ const STYLES = {
   footer: {
     container: {
       display: 'flex',
-      justifyContent: 'end'
+      justifyContent: 'space-between'
     },
+    left: {
+      display: 'flex',
+    }
   }
 };
 
@@ -56,7 +59,7 @@ function ProgramCard(props) {
   return (
     <Container theme={STYLES.container}>
       <Card theme={STYLES.card}>
-        <Container>
+        <Container onClick={() => props.data.links.program && window.open(props.data.links.program, '_blank')}>
           <Container theme={STYLES.cardHead}>
             <Image theme={STYLES.icon} src={Utils.getIcon(props.data, ICONS)} />
             <GridCardTitle>{props.data.title}</GridCardTitle>
@@ -66,13 +69,23 @@ function ProgramCard(props) {
           </Container>
         </Container>
         <Container theme={STYLES.footer.container}>
+          <Container theme={STYLES.footer.left}>
+            {
+              props.data.options.bounty &&
+                <BountyIcon />
+            }
+            {            
+              props.data.options.swag && 
+                <SwagIcon />
+            } 
+            {
+              props.data.options.hof &&
+                <HOFIcon />
+            }
+          </Container>
           {
             props.data.links.web && 
               <WebIcon url={props.data.links.web} />
-          }
-          {
-            props.data.links.program &&
-              <ProgramIcon url={props.data.links.program} />
           }
         </Container>
       </Card>
