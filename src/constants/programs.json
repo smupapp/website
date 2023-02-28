@@ -1,127 +1,147 @@
 [
    {
-    "id": "15275752-1573-4196-a032-db9c906cb707",
-    "title": "AGICAP",
-    "description": "Put cash flow at the heart of your financial management",
-    "logo_url": "https://sbp-plugin-images.s3.eu-west-1.amazonaws.com/technologies2619_61dc39c8e06cc_icon.jpg",
-    "links": {
-      "web": "https://agicap.com/",
-      "program": "https://agicap.com/en/bug-bounty/"
-    },
-    "options": {
-      "bounty": true,
-      "swag": false,
-      "hof": false
-    },
-    "report": {
-      "email": "security@agicap.com"
-    }
-  }, 
-  {
-    "id": "8f996fb1-2abb-40f7-8456-d043f1b6a494",
-    "title": "alwaysdata",
-    "description": "All your services in one place Host your files, your emails, your sites, your media, your databases, your services, etc.",
-    "logo_url": "https://pbs.twimg.com/profile_images/1118494884225277952/KMZyPTHr_400x400.png",
-    "links": {
-      "web": "https://www.alwaysdata.com/en/",
-      "program": "https://www.alwaysdata.com/en/bug-bounty/"
-    },
-    "options": {
-      "bounty": true,
-      "swag": true,
-      "hof": true
-    },
-    "report": {
-      "link": "https://admin.alwaysdata.com/support/",
-      "public_key": "https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc"
-    }
-  },
-  {
-    "id": "4ffb0ccb-7b01-4a21-9f41-0b6588e7b332",
-    "title": "Jotform",
-    "description": "Go from busywork to less work with powerful forms.",
-    "logo_url": "https://www.jotform.com/resources/assets/icon/min/jotform-icon-transparent-400x400.png",
-    "links": {
-      "web": "https://www.jotform.com/",
-      "program": "https://www.jotform.com/bug-bounty/"
-    },
-    "options": {
-      "bounty": true,
-      "swag": false,
-      "hof": false
-    },
-    "report": {}
-  },
-  {
-    "id": "a267c0bc-0cbf-451c-b03d-12598b1be225",
-    "title": "LoginRadius",
-    "description": "No-code Customer IAMPlatform",
-    "logo_url": "https://blog.loginradius.com/static/59a8962050016aa118585d686adbcd57/2bef9/logo-1024x991.png",
-    "links": {
-      "web": "https://www.loginradius.com/",
-      "program": "https://www.loginradius.com/bug-bounty/"
-    },
-    "options": {
-      "bounty": true,
-      "swag": false,
-      "hof": false
-    },
-    "report": {
-      "email": "security@loginradius.com"
-    }
-  },
-  {
-    "id": "e8660f97-bcc9-437b-bff5-2e232171193c",
-    "title": "Scholar Fund",
-    "description": "We connect community needs to opportunities and resources.",
-    "logo_url": "https://assets.website-files.com/5ffa949d81850c82f0a0ecb8/6296f8907a60da15bad164d3_black-icon.svg",
-    "links": {
-      "web": "https://www.scholarfundwa.org/",
-      "program": "https://www.scholarfundwa.org/bug-bounty"
-    },
-    "options": {
-      "bounty": true,
-      "swag": false,
-      "hof": true
-    },
-    "report": {
-      "link": "https://airtable.com/shrgh88cKM1Ce2vx4"
-    }
-  },
-  {
-    "id": "7495f7ff-f17e-4673-86c1-a5523bde5a5a",
-    "title": "SpectroCoin",
-    "description": "Buy, sell and exchange popular cryptocurrencies.",
-    "logo_url": "https://avatars.githubusercontent.com/u/13977547?s=280&v=4",
-    "links": {
-      "web": "https://spectrocoin.com/",
-      "program": "https://spectrocoin.com/bug-bounty.html"
-    },
-    "options": {
-      "bounty": true,
-      "swag": false,
-      "hof": false
-    },
-    "report": {
-      "email": "technical@spectrocoin.com"
-    }
-  },
-  {
-    "id": "4bbf0b96-a159-4acf-86c1-445ebfbc9a28",
-    "title": "stackry",
-    "description": "Shop at any U.S. retailer. Ship worldwide. Tax-free.",
-    "logo_url": "https://www.stackry.com/assets/images/stackry-logo-in-white-square.png",
-    "links": {
-      "web": "https://www.stackry.com/",
-      "program": "https://www.stackry.com/en/bug-bounty"
-    },
-    "options": {
-      "bounty": true,
-      "swag": false,
-      "hof": false
-    },
-    "report": {
-      "email": "support@stackry.com"
-    }
-  }
+      "id":"15275752-1573-4196-a032-db9c906cb707",
+      "title":"AGICAP",
+      "description":"Put cash flow at the heart of your financial management",
+      "logo_url":"https://sbp-plugin-images.s3.eu-west-1.amazonaws.com/technologies2619_61dc39c8e06cc_icon.jpg",
+      "links":{
+         "web":"https://agicap.com/",
+         "program":"https://agicap.com/en/bug-bounty/"
+      },
+      "options":{
+         "bounty":true,
+         "swag":false,
+         "hof":false
+      },
+      "report":{
+         "email":"security@agicap.com"
+      }
+   },
+   {
+      "id":"8f996fb1-2abb-40f7-8456-d043f1b6a494",
+      "title":"alwaysdata",
+      "description":"All your services in one place Host your files, your emails, your sites, your media, your databases, your services, etc.",
+      "logo_url":"https://pbs.twimg.com/profile_images/1118494884225277952/KMZyPTHr_400x400.png",
+      "links":{
+         "web":"https://www.alwaysdata.com/en/",
+         "program":"https://www.alwaysdata.com/en/bug-bounty/"
+      },
+      "options":{
+         "bounty":true,
+         "swag":true,
+         "hof":true
+      },
+      "report":{
+         "link":"https://admin.alwaysdata.com/support/",
+         "public_key":"https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc"
+      }
+   },
+   {
+      "id":"4ffb0ccb-7b01-4a21-9f41-0b6588e7b332",
+      "title":"Jotform",
+      "description":"Go from busywork to less work with powerful forms.",
+      "logo_url":"https://www.jotform.com/resources/assets/icon/min/jotform-icon-transparent-400x400.png",
+      "links":{
+         "web":"https://www.jotform.com/",
+         "program":"https://www.jotform.com/bug-bounty/"
+      },
+      "options":{
+         "bounty":true,
+         "swag":false,
+         "hof":false
+      },
+      "report":{
+         
+      }
+   },
+   {
+      "id":"a267c0bc-0cbf-451c-b03d-12598b1be225",
+      "title":"LoginRadius",
+      "description":"No-code Customer IAMPlatform",
+      "logo_url":"https://blog.loginradius.com/static/59a8962050016aa118585d686adbcd57/2bef9/logo-1024x991.png",
+      "links":{
+         "web":"https://www.loginradius.com/",
+         "program":"https://www.loginradius.com/bug-bounty/"
+      },
+      "options":{
+         "bounty":true,
+         "swag":false,
+         "hof":false
+      },
+      "report":{
+         "email":"security@loginradius.com"
+      }
+   },
+   {
+      "id":"e8660f97-bcc9-437b-bff5-2e232171193c",
+      "title":"Scholar Fund",
+      "description":"We connect community needs to opportunities and resources.",
+      "logo_url":"https://assets.website-files.com/5ffa949d81850c82f0a0ecb8/6296f8907a60da15bad164d3_black-icon.svg",
+      "links":{
+         "web":"https://www.scholarfundwa.org/",
+         "program":"https://www.scholarfundwa.org/bug-bounty"
+      },
+      "options":{
+         "bounty":true,
+         "swag":false,
+         "hof":true
+      },
+      "report":{
+         "link":"https://airtable.com/shrgh88cKM1Ce2vx4"
+      }
+   },
+   {
+      "id":"7495f7ff-f17e-4673-86c1-a5523bde5a5a",
+      "title":"SpectroCoin",
+      "description":"Buy, sell and exchange popular cryptocurrencies.",
+      "logo_url":"https://avatars.githubusercontent.com/u/13977547?s=280&v=4",
+      "links":{
+         "web":"https://spectrocoin.com/",
+         "program":"https://spectrocoin.com/bug-bounty.html"
+      },
+      "options":{
+         "bounty":true,
+         "swag":false,
+         "hof":false
+      },
+      "report":{
+         "email":"technical@spectrocoin.com"
+      }
+   },
+   {
+      "id":"4bbf0b96-a159-4acf-86c1-445ebfbc9a28",
+      "title":"stackry",
+      "description":"Shop at any U.S. retailer. Ship worldwide. Tax-free.",
+      "logo_url":"https://www.stackry.com/assets/images/stackry-logo-in-white-square.png",
+      "links":{
+         "web":"https://www.stackry.com/",
+         "program":"https://www.stackry.com/en/bug-bounty"
+      },
+      "options":{
+         "bounty":true,
+         "swag":false,
+         "hof":false
+      },
+      "report":{
+         "email":"support@stackry.com"
+      }
+   },
+   {
+      "id":"54787a3c-993d-4556-a7d8-20abf5a212aa",
+      "title":"Wallarm",
+      "description":"END-TO-END API SECURITY",
+      "logo_url":"https://vulners.com/static/img/wallarmlab.png",
+      "links":{
+         "web":"https://www.wallarm.com/",
+         "program":"https://www.wallarm.com/wallarm-security-bug-bounty-program"
+      },
+      "options":{
+         "bounty":true,
+         "swag":false,
+         "hof":false
+      },
+      "report":{
+         "email":"security@wallarm.com"
+      }
+   }
 ]
