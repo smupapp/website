@@ -87,5 +87,23 @@
     "report": [
       "technical@spectrocoin.com"
     ]
+  },
+  {
+    "id": "4bbf0b96-a159-4acf-86c1-445ebfbc9a28",
+    "title": "stackry",
+    "description": "Shop at any U.S. retailer. Ship worldwide. Tax-free.",
+    "logo_url": "https://www.stackry.com/assets/images/stackry-logo-in-white-square.png",
+    "links": {
+      "web": "https://www.stackry.com/",
+      "program": "https://www.stackry.com/en/bug-bounty"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": [
+      "support@stackry.com"
+    ]
   }
 ]
