@@ -22,7 +22,7 @@ const theme = {
 function Image(props) {
   const inputTheme = {...theme, ...props.theme};
   return (
-    <StyledImage theme={inputTheme} src={props.src} href={props.href} onClick={props.onClick} />
+    <StyledImage theme={inputTheme} src={props.src} data-src={props.dataSrc} href={props.href} onClick={props.onClick} />
   )
 }
 

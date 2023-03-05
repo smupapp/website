@@ -61,7 +61,7 @@ function ProgramCard(props) {
       <Card theme={STYLES.card}>
         <Container onClick={() => props.data.links.program && window.open(props.data.links.program, '_blank')}>
           <Container theme={STYLES.cardHead}>
-            <Image theme={STYLES.icon} src={Utils.getIcon(props.data, ICONS)} />
+            <Image theme={STYLES.icon} src={Utils.getIcon(props.data, ICONS)} dataSrc={Utils.getIcon(props.data, ICONS)} />
             <GridCardTitle>{props.data.title}</GridCardTitle>
           </Container>
           <Container theme={STYLES.cardBottom}>

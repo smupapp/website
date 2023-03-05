@@ -1,147 +1,165 @@
 [
-   {
-      "id":"15275752-1573-4196-a032-db9c906cb707",
-      "title":"AGICAP",
-      "description":"Put cash flow at the heart of your financial management",
-      "logo_url":"https://sbp-plugin-images.s3.eu-west-1.amazonaws.com/technologies2619_61dc39c8e06cc_icon.jpg",
-      "links":{
-         "web":"https://agicap.com/",
-         "program":"https://agicap.com/en/bug-bounty/"
-      },
-      "options":{
-         "bounty":true,
-         "swag":false,
-         "hof":false
-      },
-      "report":{
-         "email":"security@agicap.com"
-      }
-   },
-   {
-      "id":"8f996fb1-2abb-40f7-8456-d043f1b6a494",
-      "title":"alwaysdata",
-      "description":"All your services in one place Host your files, your emails, your sites, your media, your databases, your services, etc.",
-      "logo_url":"https://pbs.twimg.com/profile_images/1118494884225277952/KMZyPTHr_400x400.png",
-      "links":{
-         "web":"https://www.alwaysdata.com/en/",
-         "program":"https://www.alwaysdata.com/en/bug-bounty/"
-      },
-      "options":{
-         "bounty":true,
-         "swag":true,
-         "hof":true
-      },
-      "report":{
-         "link":"https://admin.alwaysdata.com/support/",
-         "public_key":"https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc"
-      }
-   },
-   {
-      "id":"4ffb0ccb-7b01-4a21-9f41-0b6588e7b332",
-      "title":"Jotform",
-      "description":"Go from busywork to less work with powerful forms.",
-      "logo_url":"https://www.jotform.com/resources/assets/icon/min/jotform-icon-transparent-400x400.png",
-      "links":{
-         "web":"https://www.jotform.com/",
-         "program":"https://www.jotform.com/bug-bounty/"
-      },
-      "options":{
-         "bounty":true,
-         "swag":false,
-         "hof":false
-      },
-      "report":{
-         
-      }
-   },
-   {
-      "id":"a267c0bc-0cbf-451c-b03d-12598b1be225",
-      "title":"LoginRadius",
-      "description":"No-code Customer IAMPlatform",
-      "logo_url":"https://blog.loginradius.com/static/59a8962050016aa118585d686adbcd57/2bef9/logo-1024x991.png",
-      "links":{
-         "web":"https://www.loginradius.com/",
-         "program":"https://www.loginradius.com/bug-bounty/"
-      },
-      "options":{
-         "bounty":true,
-         "swag":false,
-         "hof":false
-      },
-      "report":{
-         "email":"security@loginradius.com"
-      }
-   },
-   {
-      "id":"e8660f97-bcc9-437b-bff5-2e232171193c",
-      "title":"Scholar Fund",
-      "description":"We connect community needs to opportunities and resources.",
-      "logo_url":"https://assets.website-files.com/5ffa949d81850c82f0a0ecb8/6296f8907a60da15bad164d3_black-icon.svg",
-      "links":{
-         "web":"https://www.scholarfundwa.org/",
-         "program":"https://www.scholarfundwa.org/bug-bounty"
-      },
-      "options":{
-         "bounty":true,
-         "swag":false,
-         "hof":true
-      },
-      "report":{
-         "link":"https://airtable.com/shrgh88cKM1Ce2vx4"
-      }
-   },
-   {
-      "id":"7495f7ff-f17e-4673-86c1-a5523bde5a5a",
-      "title":"SpectroCoin",
-      "description":"Buy, sell and exchange popular cryptocurrencies.",
-      "logo_url":"https://avatars.githubusercontent.com/u/13977547?s=280&v=4",
-      "links":{
-         "web":"https://spectrocoin.com/",
-         "program":"https://spectrocoin.com/bug-bounty.html"
-      },
-      "options":{
-         "bounty":true,
-         "swag":false,
-         "hof":false
-      },
-      "report":{
-         "email":"technical@spectrocoin.com"
-      }
-   },
-   {
-      "id":"4bbf0b96-a159-4acf-86c1-445ebfbc9a28",
-      "title":"stackry",
-      "description":"Shop at any U.S. retailer. Ship worldwide. Tax-free.",
-      "logo_url":"https://www.stackry.com/assets/images/stackry-logo-in-white-square.png",
-      "links":{
-         "web":"https://www.stackry.com/",
-         "program":"https://www.stackry.com/en/bug-bounty"
-      },
-      "options":{
-         "bounty":true,
-         "swag":false,
-         "hof":false
-      },
-      "report":{
-         "email":"support@stackry.com"
-      }
-   },
-   {
-      "id":"54787a3c-993d-4556-a7d8-20abf5a212aa",
-      "title":"Wallarm",
-      "description":"END-TO-END API SECURITY",
-      "logo_url":"https://vulners.com/static/img/wallarmlab.png",
-      "links":{
-         "web":"https://www.wallarm.com/",
-         "program":"https://www.wallarm.com/wallarm-security-bug-bounty-program"
-      },
-      "options":{
-         "bounty":true,
-         "swag":false,
-         "hof":false
-      },
-      "report":{
-         "email":"security@wallarm.com"
-      }
-   }
+  {
+    "id": "15275752-1573-4196-a032-db9c906cb707",
+    "title": "AGICAP",
+    "description": "Put cash flow at the heart of your financial management",
+    "logo_url": "https://sbp-plugin-images.s3.eu-west-1.amazonaws.com/technologies2619_61dc39c8e06cc_icon.jpg",
+    "links": {
+      "web": "https://agicap.com/",
+      "program": "https://agicap.com/en/bug-bounty/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": {
+      "email": "security@agicap.com"
+    }
+  },
+  {
+    "id": "8f996fb1-2abb-40f7-8456-d043f1b6a494",
+    "title": "alwaysdata",
+    "description": "All your services in one place Host your files, your emails, your sites, your media, your databases, your services, etc.",
+    "logo_url": "https://pbs.twimg.com/profile_images/1118494884225277952/KMZyPTHr_400x400.png",
+    "links": {
+      "web": "https://www.alwaysdata.com/en/",
+      "program": "https://www.alwaysdata.com/en/bug-bounty/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": true,
+      "hof": true
+    },
+    "report": {
+      "link": "https://admin.alwaysdata.com/support/",
+      "public_key": "https://www.alwaysdata.com/static/0xDFDD2138A363986B.pub.asc"
+    }
+  },
+  {
+    "id": "f34850cd-c95c-4dfc-93ab-2dc8e00d3344",
+    "title": "Exirio",
+    "description": "Exirio is a wealth management app that tracks all your investments, in any currency.",
+    "logo_url": "data:image/png;base64,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",
+    "links": {
+      "web": "https://www.exirio.com/",
+      "program": "https://www.exirio.com/bug-bounty/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": true
+    },
+    "report": {
+      "email": "security@exirio.com",
+      "link": ""
+    }
+  },
+  {
+    "id": "4ffb0ccb-7b01-4a21-9f41-0b6588e7b332",
+    "title": "Jotform",
+    "description": "Go from busywork to less work with powerful forms.",
+    "logo_url": "https://www.jotform.com/resources/assets/icon/min/jotform-icon-transparent-400x400.png",
+    "links": {
+      "web": "https://www.jotform.com/",
+      "program": "https://www.jotform.com/bug-bounty/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": {}
+  },
+  {
+    "id": "a267c0bc-0cbf-451c-b03d-12598b1be225",
+    "title": "LoginRadius",
+    "description": "No-code Customer IAMPlatform",
+    "logo_url": "https://blog.loginradius.com/static/59a8962050016aa118585d686adbcd57/2bef9/logo-1024x991.png",
+    "links": {
+      "web": "https://www.loginradius.com/",
+      "program": "https://www.loginradius.com/bug-bounty/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": {
+      "email": "security@loginradius.com"
+    }
+  },
+  {
+    "id": "e8660f97-bcc9-437b-bff5-2e232171193c",
+    "title": "Scholar Fund",
+    "description": "We connect community needs to opportunities and resources.",
+    "logo_url": "https://assets.website-files.com/5ffa949d81850c82f0a0ecb8/6296f8907a60da15bad164d3_black-icon.svg",
+    "links": {
+      "web": "https://www.scholarfundwa.org/",
+      "program": "https://www.scholarfundwa.org/bug-bounty"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": true
+    },
+    "report": {
+      "link": "https://airtable.com/shrgh88cKM1Ce2vx4"
+    }
+  },
+  {
+    "id": "7495f7ff-f17e-4673-86c1-a5523bde5a5a",
+    "title": "SpectroCoin",
+    "description": "Buy, sell and exchange popular cryptocurrencies.",
+    "logo_url": "https://avatars.githubusercontent.com/u/13977547?s=280&v=4",
+    "links": {
+      "web": "https://spectrocoin.com/",
+      "program": "https://spectrocoin.com/bug-bounty.html"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": {
+      "email": "technical@spectrocoin.com"
+    }
+  },
+  {
+    "id": "4bbf0b96-a159-4acf-86c1-445ebfbc9a28",
+    "title": "stackry",
+    "description": "Shop at any U.S. retailer. Ship worldwide. Tax-free.",
+    "logo_url": "https://www.stackry.com/assets/images/stackry-logo-in-white-square.png",
+    "links": {
+      "web": "https://www.stackry.com/",
+      "program": "https://www.stackry.com/en/bug-bounty"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": {
+      "email": "support@stackry.com"
+    }
+  },
+  {
+    "id": "54787a3c-993d-4556-a7d8-20abf5a212aa",
+    "title": "Wallarm",
+    "description": "END-TO-END API SECURITY",
+    "logo_url": "https://vulners.com/static/img/wallarmlab.png",
+    "links": {
+      "web": "https://www.wallarm.com/",
+      "program": "https://www.wallarm.com/wallarm-security-bug-bounty-program"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": {
+      "email": "security@wallarm.com"
+    }
+  }
 ]
+
