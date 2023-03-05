@@ -9,6 +9,20 @@ npm install
 npm start
 ```
 
+## Add new program
+
+- You can use `program.sh` script available to add a new program. Run the script using below command and enter all the fields
+
+> Note: `jq` should be pre-installed
+
+```
+$ ./program.sh
+```
+
+- Above script will update the programs json file.
+- You will see also see a tweet URL about tweeting about the new program you have just added.
+
+
 ## Credits
 
 - [awesome-bugbounty-tools](https://github.com/vavkamil/awesome-bugbounty-tools) - For awesome tools directory
