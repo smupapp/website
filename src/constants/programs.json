@@ -56,6 +56,25 @@
     }
   },
   {
+    "id": "4738f17b-c820-47f6-a90d-56f34b749e16",
+    "title": "Gruntwork.io",
+    "description": "Your entire infrastructure. Defined as code. In about a day.",
+    "logo_url": "https://avatars.githubusercontent.com/u/17118990",
+    "links": {
+      "web": "https://gruntwork.io/",
+      "program": "https://gruntwork.io/security/vulnerability-disclosure-policy/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": true
+    },
+    "report": {
+      "email": "security@gruntwork.io",
+      "link": ""
+    }
+  },
+  {
     "id": "4ffb0ccb-7b01-4a21-9f41-0b6588e7b332",
     "title": "Jotform",
     "description": "Go from busywork to less work with powerful forms.",
