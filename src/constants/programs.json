@@ -144,6 +144,25 @@
     }
   },
   {
+    "id": "25086caa-9655-4e6e-a7f0-4d62b943d3fe",
+    "title": "vivid.money",
+    "description": "Vivid is more than personal banking for yourself – manage your finances with friends and family, earn cashback on everyday spending, invest instantly and enjoy state-of-the-art digital banking services.",
+    "logo_url": "https://www.finanztip.de/fileadmin/images/Anbieter-Bewertungs-Portal/Logos/vivid.png",
+    "links": {
+      "web": "https://vivid.money/",
+      "program": "https://vivid.money/en-de/bug-bounty/"
+    },
+    "options": {
+      "bounty": true,
+      "swag": false,
+      "hof": false
+    },
+    "report": {
+      "email": "bugbounty@vivid.money",
+      "link": ""
+    }
+  },
+  {
     "id": "54787a3c-993d-4556-a7d8-20abf5a212aa",
     "title": "Wallarm",
     "description": "END-TO-END API SECURITY",
@@ -162,4 +181,3 @@
     }
   }
 ]
-
